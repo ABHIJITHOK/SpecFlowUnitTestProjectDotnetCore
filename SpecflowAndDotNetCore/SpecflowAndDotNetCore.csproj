@@ -35,6 +35,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="ExecuteSpecFlowTests.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <SpecFlowFeatureFiles Update="SpecFlowFeature1.feature">
       <Generator></Generator>
     </SpecFlowFeatureFiles>

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  specflowanddotnetcore:
+    image: ${DOCKER_REGISTRY-}specflowanddotnetcore
+    build:
+      context: .
+      dockerfile: SpecflowAndDotNetCore/Dockerfile
